@@ -10,6 +10,8 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
+  <button class="bg-black text-slate-50">tailwind</button>
+  <el-button type="primary">element-plus</el-button>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
